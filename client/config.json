@@ -1,0 +1,19 @@
+{
+  "sources": ["system", "web", "music", "calls"],
+  "arduinoPath": "/dev/ttyUSB0",
+  "system": {
+    "label": "System volume"
+  },
+  "web": {
+    "label": "Web browsers",
+    "sinks": ["Firefox", "Chromium", "Google Chrome"]
+  },
+  "music": {
+    "label": "Media players",
+    "sinks": ["Lollypop", "mpv", "VLC media player (LibVLC 3.0.20)"]
+  },
+  "calls": {
+    "label": "Calls",
+    "sinks": ["WEBRTC VoiceEngine"]
+  }
+}
